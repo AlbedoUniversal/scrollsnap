@@ -1,0 +1,38 @@
+.main {
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow: auto;
+}
+
+.block {
+  height: 100%;
+  scroll-snap-align: center;
+}
+
+.block:nth-child(1) {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.block:nth-child(2) {
+  background-color: rgb(65, 150, 26);
+}
+.block:nth-child(3) {
+  background-color: rgb(56, 12, 106);
+}
+.block:nth-child(4) {
+  background-color: rgb(216, 82, 15);
+}
+.block:nth-child(5) {
+  background-color: rgb(18, 140, 93);
+}
+.block:nth-child(6) {
+  background-color: rgb(193, 36, 120);
+}
+.block:nth-child(7) {
+  background-color: rgb(192, 204, 28);
+}
+.block:nth-child(8) {
+  background-color: rgb(208, 21, 21);
+}
